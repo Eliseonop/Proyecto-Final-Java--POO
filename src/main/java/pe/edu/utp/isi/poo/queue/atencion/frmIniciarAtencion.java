@@ -16,7 +16,7 @@ import javax.swing.JComponent;
 import javax.swing.JOptionPane;
 import javax.swing.KeyStroke;
 import javax.swing.Timer;
-import pe.edu.utp.isi.poo.queue.BaseStreamFrame;
+
 import pe.edu.utp.isi.poo.queue.Codigo;
 import pe.edu.utp.isi.poo.queue.Notificacion;
 import pe.edu.utp.isi.poo.queue.Persona;

@@ -15,11 +15,6 @@ public class Persona implements Serializable {
         this.name = name;
     }
 
-    public static Persona fromSocket(String socketString) {
-        String[] parts = socketString.split("-");
-        return new Persona(parts[0], parts[1]);
-    }
-
     @Override
     public String toString() {
         return "Persona{dni='" + dni + "', nombre='" + name + "'}";
@@ -29,9 +24,8 @@ public class Persona implements Serializable {
         return id;
     }
 
-    
     public String getName() {
-        return  name.toUpperCase();
+        return name.toUpperCase();
     }
 
     public String getDni() {

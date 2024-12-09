@@ -15,7 +15,6 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
-import pe.edu.utp.isi.poo.queue.BaseStreamFrame;
 import pe.edu.utp.isi.poo.queue.Codigo;
 import pe.edu.utp.isi.poo.queue.Mensaje;
 import pe.edu.utp.isi.poo.queue.Notificacion;

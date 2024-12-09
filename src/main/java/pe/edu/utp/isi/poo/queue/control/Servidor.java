@@ -25,11 +25,9 @@ public class Servidor {
     CopyOnWriteArrayList<CanalComunicacion> canals = new CopyOnWriteArrayList<>();
 
     public Servidor() {
-        //Leer la configuración del servidor desde un archivo de configuración
         direccionIP = "127.0.0.1";
         puerto = 5000;
         tamanoMaximoCola = 10;
-
     }
 
     public void iniciar() throws Exception {
